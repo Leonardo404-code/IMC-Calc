@@ -23,11 +23,9 @@ form.addEventListener("submit", function (e) {
 
   if (IMC <= 18.5) {
     Result.className = "lowWeight";
-
     Result.innerHTML = "Abaixo do peso";
   }
   if (IMC > 18.5 && IMC <= 24.9) {
-    
     Result.className = "normalWeight";
     Result.innerHTML = "Peso normal";
   }
@@ -37,7 +35,6 @@ form.addEventListener("submit", function (e) {
   }
   if (IMC > 30 && IMC <= 34.9) {
     Result.className = "obesity";
-    
     Result.innerHTML = "Obesidade Grau 1";
   }
   if (IMC > 35 && IMC <= 39.9) {
