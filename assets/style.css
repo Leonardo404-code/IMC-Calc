@@ -67,6 +67,11 @@ body {
   border-bottom: 1px solid #fff;
 }
 
+.containerCalc img {
+  width: 4.5rem;
+  margin-right: -3rem;
+}
+
 .buttonContainer {
   display: flex;
   justify-content: center;
