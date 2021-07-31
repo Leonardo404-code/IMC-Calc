@@ -124,3 +124,15 @@ body {
 
   text-align: center;
 }
+
+@media (max-width: 990px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .containerIMC {
+    margin-bottom: 1rem;
+  }
+}
